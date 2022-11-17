@@ -1,5 +1,10 @@
 {
     "volo": {
         "url": "https://raw.github.com/requirejs/r.js/{version}/dist/r.js"
-    }
+    },
+    "name": "@woltlab/r.js",
+    "scripts": {
+        "prepare": "node dist.js"
+    },
+    "bin": "r.js"
 }
